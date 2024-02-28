@@ -31,7 +31,7 @@
       <div class="quick-menu mobile-only form-inline">
         <a
           v-b-tooltip.hover.bottom="$t('sync')"
-          class="item-with-icon"
+          class="item-with-icon sync"
           :aria-label="$t('sync')"
           @click="sync"
         >
@@ -40,8 +40,8 @@
             v-html="icons.sync"
           ></div>
         </a>
-        <notification-menu class="item-with-icon" />
-        <user-dropdown class="item-with-icon" />
+        <notification-menu class="item-with-icon notification-menu" />
+        <user-dropdown class="item-with-icon user-menu" />
       </div>
       <b-collapse
         id="menu_collapse"
@@ -365,7 +365,7 @@
               :aria-label="$t('gold')"
               v-html="icons.gold"
             ></div>
-            <span class="value">{{ Math.floor(user.stats.gp * 100) / 100 }}</span>
+            <span class="gold-value">{{ Math.floor(user.stats.gp * 100) / 100 }}</span>
           </div>
         </div>
         <div class="form-inline desktop-only">
@@ -401,6 +401,36 @@ body.modal-open #habitica-menu {
   @import '~@/assets/scss/colors.scss';
   @import '~@/assets/scss/utils.scss';
   @import '~@/assets/scss/variables.scss';
+
+  .hg-value {
+    margin-left: 4px;
+    margin-right: 24px;
+  }
+
+  .value {
+    margin-left: 8px;
+    margin-right: 24px;
+  }
+
+  .gold-value {
+    margin-left: 8px;
+    margin-right: 24px;
+  }
+
+  .sync {
+    margin-left: 0px;
+    margin-right: 24px;
+  }
+
+  .notification-menu {
+    margin-left: 0px;
+    margin-right: 24px;
+  }
+
+  .user-menu {
+    margin-left: 0px;
+    margin-right: 12px;
+  }
 
   @media only screen and (max-width: 1200px) {
     .chevron {
@@ -447,7 +477,6 @@ body.modal-open #habitica-menu {
       .topbar-item {
         padding-top: 5px;
         height: 56px;
-
         &:hover {
           background: $purple-200;
         }
@@ -470,7 +499,7 @@ body.modal-open #habitica-menu {
 
     .gryphon {
       position: absolute;
-      left: calc(50% - 30px);
+      left: calc(50% - 20px);
       top: -2px;
     }
 
@@ -479,6 +508,11 @@ body.modal-open #habitica-menu {
       overflow: auto;
       flex-direction: column;
       background-color: $purple-100;
+
+      .currency-tray {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
 
       .menu-list {
         width: 100%;
@@ -530,6 +564,7 @@ body.modal-open #habitica-menu {
     }
 
     .currency-tray {
+      display: flex;
       justify-content: center;
       min-height: 40px;
       background: #271b3d;
@@ -653,7 +688,7 @@ body.modal-open #habitica-menu {
     }
 
     &.gold {
-      margin-right: 24px;
+      margin-right: 0px;
     }
 
     &:focus ::v-deep .top-menu-icon.svg-icon,
@@ -706,33 +741,8 @@ body.modal-open #habitica-menu {
     }
   }
 
-  .hg-value {
-    margin-left: 4px;
-    margin-right: 24px;
-  }
-
-  .value {
-    margin-left: 8px;
-    margin-right: 24px;
-  }
-
-  .sync {
-    margin-left: 0px;
-    margin-right: 24px;
-  }
-
-  .notification-menu {
-    margin-left: 0px;
-    margin-right: 24px;
-  }
-
-  .user-menu {
-    margin-left: 0px;
-    margin-right: 12px;
-  }
-
   .gold {
-    margin-right: 12px !important;
+    margin-right: 12px;
   }
 
   .message-count {
