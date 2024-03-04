@@ -38110,6 +38110,11 @@
   width: 68px;
   height: 68px;
 }
+.inventory_quest_scroll_fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_fungus.png');
+  width: 68px;
+  height: 68px;
+}
 .inventory_quest_scroll_ghost_stag {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_ghost_stag.png');
   width: 68px;
@@ -55270,6 +55275,11 @@
   width: 81px;
   height: 99px;
 }
+.Pet-BearCub-Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-BearCub-Fungus.png');
+  width: 81px;
+  height: 99px;
+}
 .Pet-BearCub-Ghost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-BearCub-Ghost.png');
   width: 81px;
@@ -55722,6 +55732,11 @@
 }
 .Pet-Cactus-Frost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Cactus-Frost.png');
+  width: 81px;
+  height: 99px;
+}
+.Pet-Cactus-Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Cactus-Fungus.png');
   width: 81px;
   height: 99px;
 }
@@ -56275,6 +56290,11 @@
   width: 81px;
   height: 99px;
 }
+.Pet-Dragon-Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Dragon-Fungus.png');
+  width: 81px;
+  height: 99px;
+}
 .Pet-Dragon-Ghost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Dragon-Ghost.png');
   width: 81px;
@@ -56735,6 +56755,11 @@
   width: 81px;
   height: 99px;
 }
+.Pet-FlyingPig-Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-FlyingPig-Fungus.png');
+  width: 81px;
+  height: 99px;
+}
 .Pet-FlyingPig-Ghost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-FlyingPig-Ghost.png');
   width: 81px;
@@ -57032,6 +57057,11 @@
 }
 .Pet-Fox-Frost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Fox-Frost.png');
+  width: 81px;
+  height: 99px;
+}
+.Pet-Fox-Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Fox-Fungus.png');
   width: 81px;
   height: 99px;
 }
@@ -57730,6 +57760,11 @@
   width: 81px;
   height: 99px;
 }
+.Pet-LionCub-Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-LionCub-Fungus.png');
+  width: 81px;
+  height: 99px;
+}
 .Pet-LionCub-Ghost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-LionCub-Ghost.png');
   width: 81px;
@@ -58247,6 +58282,11 @@
 }
 .Pet-PandaCub-Frost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-PandaCub-Frost.png');
+  width: 81px;
+  height: 99px;
+}
+.Pet-PandaCub-Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-PandaCub-Fungus.png');
   width: 81px;
   height: 99px;
 }
@@ -59510,6 +59550,11 @@
   width: 81px;
   height: 99px;
 }
+.Pet-TigerCub-Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-TigerCub-Fungus.png');
+  width: 81px;
+  height: 99px;
+}
 .Pet-TigerCub-Ghost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-TigerCub-Ghost.png');
   width: 81px;
@@ -60125,6 +60170,11 @@
   width: 81px;
   height: 99px;
 }
+.Pet-Wolf-Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Wolf-Fungus.png');
+  width: 81px;
+  height: 99px;
+}
 .Pet-Wolf-Ghost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Wolf-Ghost.png');
   width: 81px;
@@ -60477,6 +60527,11 @@
 }
 .Pet_HatchingPotion_Frost {
   background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet_HatchingPotion_Frost.png');
+  width: 68px;
+  height: 68px;
+}
+.Pet_HatchingPotion_Fungus {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet_HatchingPotion_Fungus.png');
   width: 68px;
   height: 68px;
 }
