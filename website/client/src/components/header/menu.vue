@@ -357,7 +357,7 @@
           <div class="item-with-icon">
             <a
               v-b-tooltip.hover.bottom="$t('gems')"
-              class="top-menu-icon svg-icon gem mr-4"
+              class="top-menu-icon svg-icon gem mr-2"
               :aria-label="$t('gems')"
               href="#buy-gems"
               @click.prevent="showBuyGemsModal()"
@@ -368,7 +368,7 @@
           <div class="item-with-icon gold">
             <div
               v-b-tooltip.hover.bottom="$t('gold')"
-              class="top-menu-icon svg-icon gold"
+              class="top-menu-icon svg-icon gold mr-2"
               :aria-label="$t('gold')"
               v-html="icons.gold"
             ></div>
