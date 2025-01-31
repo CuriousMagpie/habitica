@@ -235,7 +235,7 @@ export default {
       }
 
       let owned = '';
-      // @TODO: we skip ownership === 2 because it is the same as === 0 right now
+      // NOTE: we skip ownership === 2 because it is the same as === 0 right now
       if (this.filters.ownership && this.filters.ownership.length === 1) {
         [owned] = this.filters.ownership;
       }
